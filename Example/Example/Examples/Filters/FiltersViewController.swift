@@ -7,6 +7,7 @@
 //
 
 import Macaw
+import UIKit
 
 class FiltersViewController: UIViewController {
     

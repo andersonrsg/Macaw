@@ -7,6 +7,8 @@
 //
 
 import Macaw
+import UIKit
+import Foundation
 
 class EventsExampleController: UIViewController {
     

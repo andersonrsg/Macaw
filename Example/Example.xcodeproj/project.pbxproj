@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48BC2FE8BD3BF26100D04E07 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A92F90D3D20D2A289BED45F /* Pods_Example.framework */; };
 		49265C802227B1EB00923A66 /* TextsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49265C7F2227B1EB00923A66 /* TextsExampleView.swift */; };
 		5747F9BD1E38B683004E338F /* MorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747F9BC1E38B683004E338F /* MorphingView.swift */; };
 		574EC43E1CB7DE7F0063F317 /* ShapesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574EC4341CB7DE7F0063F317 /* ShapesExampleView.swift */; };
@@ -20,6 +19,10 @@
 		5B5B393B2481094200753058 /* PathAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B393A2481094200753058 /* PathAnimationView.swift */; };
 		5BAE3CB120C54E3D006BEF51 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE3CB020C54E3D006BEF51 /* FiltersViewController.swift */; };
 		66AE19DB1CC8CB3C00B78B5E /* tiger.svg in Resources */ = {isa = PBXBuildFile; fileRef = 66AE19DA1CC8CB3C00B78B5E /* tiger.svg */; };
+		7193497126A9B7E30019E6F2 /* Macaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7193496726A9B7470019E6F2 /* Macaw.framework */; };
+		7193497226A9B7E30019E6F2 /* Macaw.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7193496726A9B7470019E6F2 /* Macaw.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7193497426A9B9F30019E6F2 /* tiger2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7193497326A9B9F30019E6F2 /* tiger2.svg */; };
+		7193497626A9BA330019E6F2 /* tiger3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7193497526A9BA330019E6F2 /* tiger3.svg */; };
 		B02E75F11C16104900D1971D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E75F01C16104900D1971D /* AppDelegate.swift */; };
 		B02E75F61C16104900D1971D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02E75F41C16104900D1971D /* Main.storyboard */; };
 		B02E75F81C16104900D1971D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02E75F71C16104900D1971D /* Assets.xcassets */; };
@@ -28,6 +31,30 @@
 		B04416FC1E04282A0016BC50 /* EasingExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04416FB1E04282A0016BC50 /* EasingExampleController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7193496626A9B7470019E6F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7193496026A9B7470019E6F2 /* Macaw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57FCD26C1D76EA4600CC0FB6;
+			remoteInfo = Macaw;
+		};
+		7193496826A9B7470019E6F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7193496026A9B7470019E6F2 /* Macaw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57FCD2761D76EA4600CC0FB6;
+			remoteInfo = MacawTests;
+		};
+		7193496A26A9B7470019E6F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7193496026A9B7470019E6F2 /* Macaw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57614B791F83D15600875933;
+			remoteInfo = MacawOSX;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B02E76111C16112700D1971D /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7193497226A9B7E30019E6F2 /* Macaw.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,8 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A92F90D3D20D2A289BED45F /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		131DDFA4A9D164CC4B64C3E8 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		49265C7F2227B1EB00923A66 /* TextsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsExampleView.swift; sourceTree = "<group>"; };
 		5747F9BC1E38B683004E338F /* MorphingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
 		574EC4341CB7DE7F0063F317 /* ShapesExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapesExampleView.swift; sourceTree = "<group>"; };
@@ -56,6 +82,9 @@
 		5B5B393A2481094200753058 /* PathAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathAnimationView.swift; sourceTree = "<group>"; };
 		5BAE3CB020C54E3D006BEF51 /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 		66AE19DA1CC8CB3C00B78B5E /* tiger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tiger.svg; path = Example/Assets/SVG/tiger.svg; sourceTree = "<group>"; };
+		7193496026A9B7470019E6F2 /* Macaw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Macaw.xcodeproj; path = ../../Macaw.xcodeproj; sourceTree = "<group>"; };
+		7193497326A9B9F30019E6F2 /* tiger2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiger2.svg; sourceTree = "<group>"; };
+		7193497526A9BA330019E6F2 /* tiger3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiger3.svg; sourceTree = "<group>"; };
 		B02E75ED1C16104900D1971D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02E75F01C16104900D1971D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02E75F51C16104900D1971D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +93,6 @@
 		B02E75FC1C16104900D1971D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B04416F91E041A420016BC50 /* EasingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingView.swift; sourceTree = "<group>"; };
 		B04416FB1E04282A0016BC50 /* EasingExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingExampleController.swift; sourceTree = "<group>"; };
-		B1435E8977BA0B9A49C4E399 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,22 +100,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BC2FE8BD3BF26100D04E07 /* Pods_Example.framework in Frameworks */,
+				7193497126A9B7E30019E6F2 /* Macaw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04C58A7728E2EE04767EC462 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B1435E8977BA0B9A49C4E399 /* Pods-Example.debug.xcconfig */,
-				131DDFA4A9D164CC4B64C3E8 /* Pods-Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		49265C7E2227B1B200923A66 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,14 +199,6 @@
 			path = AnimationsHierarchy;
 			sourceTree = "<group>";
 		};
-		65CBD13FE29C7F0265D0E051 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0A92F90D3D20D2A289BED45F /* Pods_Example.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6699B7CE1DFFE8B90072585E /* Transform */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,19 +218,46 @@
 		66AE19D91CC8CAB600B78B5E /* SVG */ = {
 			isa = PBXGroup;
 			children = (
+				7193497526A9BA330019E6F2 /* tiger3.svg */,
+				7193497326A9B9F30019E6F2 /* tiger2.svg */,
 				66AE19DA1CC8CB3C00B78B5E /* tiger.svg */,
 			);
 			name = SVG;
 			sourceTree = "<group>";
 		};
+		7193495F26A9B7430019E6F2 /* Macaw */ = {
+			isa = PBXGroup;
+			children = (
+				7193496026A9B7470019E6F2 /* Macaw.xcodeproj */,
+			);
+			path = Macaw;
+			sourceTree = "<group>";
+		};
+		7193496126A9B7470019E6F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7193496726A9B7470019E6F2 /* Macaw.framework */,
+				7193496926A9B7470019E6F2 /* MacawTests.xctest */,
+				7193496B26A9B7470019E6F2 /* MacawOSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7193497026A9B7E30019E6F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B02E75E41C16104900D1971D = {
 			isa = PBXGroup;
 			children = (
+				7193495F26A9B7430019E6F2 /* Macaw */,
 				66AE19D81CC8CAB000B78B5E /* Assets */,
 				B02E75EF1C16104900D1971D /* Example */,
 				B02E75EE1C16104900D1971D /* Products */,
-				04C58A7728E2EE04767EC462 /* Pods */,
-				65CBD13FE29C7F0265D0E051 /* Frameworks */,
+				7193497026A9B7E30019E6F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,13 +289,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02E75FF1C16104900D1971D /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				E0E7226688D87F7AF53552BB /* [CP] Check Pods Manifest.lock */,
 				B02E75E91C16104900D1971D /* Sources */,
 				B02E75EA1C16104900D1971D /* Frameworks */,
 				B02E75EB1C16104900D1971D /* Resources */,
 				B02E76111C16112700D1971D /* Copy Frameworks */,
-				1363B98F428BA2C3D28D6A08 /* [CP] Embed Pods Frameworks */,
-				B0FA944360B787472EFB3D94 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,7 +315,7 @@
 				TargetAttributes = {
 					B02E75EC1C16104900D1971D = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = FZXCM5CJ7P;
+						DevelopmentTeam = 4764BD9395;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -297,12 +332,42 @@
 			mainGroup = B02E75E41C16104900D1971D;
 			productRefGroup = B02E75EE1C16104900D1971D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7193496126A9B7470019E6F2 /* Products */;
+					ProjectRef = 7193496026A9B7470019E6F2 /* Macaw.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B02E75EC1C16104900D1971D /* Example */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7193496726A9B7470019E6F2 /* Macaw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Macaw.framework;
+			remoteRef = 7193496626A9B7470019E6F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7193496926A9B7470019E6F2 /* MacawTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MacawTests.xctest;
+			remoteRef = 7193496826A9B7470019E6F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7193496B26A9B7470019E6F2 /* MacawOSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MacawOSX.framework;
+			remoteRef = 7193496A26A9B7470019E6F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B02E75EB1C16104900D1971D /* Resources */ = {
@@ -312,67 +377,13 @@
 				B02E75FB1C16104900D1971D /* LaunchScreen.storyboard in Resources */,
 				B02E75F81C16104900D1971D /* Assets.xcassets in Resources */,
 				66AE19DB1CC8CB3C00B78B5E /* tiger.svg in Resources */,
+				7193497626A9BA330019E6F2 /* tiger3.svg in Resources */,
+				7193497426A9B9F30019E6F2 /* tiger2.svg in Resources */,
 				B02E75F61C16104900D1971D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1363B98F428BA2C3D28D6A08 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
-				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0FA944360B787472EFB3D94 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0E7226688D87F7AF53552BB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B02E75E91C16104900D1971D /* Sources */ = {
@@ -522,13 +533,12 @@
 		};
 		B02E76001C16104900D1971D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1435E8977BA0B9A49C4E399 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FZXCM5CJ7P;
+				DEVELOPMENT_TEAM = 4764BD9395;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,13 +552,12 @@
 		};
 		B02E76011C16104900D1971D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131DDFA4A9D164CC4B64C3E8 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FZXCM5CJ7P;
+				DEVELOPMENT_TEAM = 4764BD9395;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

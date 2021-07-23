@@ -20,7 +20,7 @@ class ShapeRenderer: NodeRenderer {
     }
 
     override var node: Node {
-        return shape
+        shape
     }
 
     override func doAddObservers() {
@@ -229,10 +229,10 @@ class ShapeRenderer: NodeRenderer {
 
 extension Stroke {
     func strokeUsingAlphaOnly() -> Stroke {
-        return Stroke(fill: fill.fillUsingAlphaOnly(), width: width, cap: cap, join: join, dashes: dashes, offset: offset)
+        Stroke(fill: fill.fillUsingAlphaOnly(), width: width, cap: cap, join: join, dashes: dashes, offset: offset)
     }
     func strokeUsingGrayscaleNoAlpha() -> Stroke {
-        return Stroke(fill: fill.fillUsingGrayscaleNoAlpha(), width: width, cap: cap, join: join, dashes: dashes, offset: offset)
+        Stroke(fill: fill.fillUsingGrayscaleNoAlpha(), width: width, cap: cap, join: join, dashes: dashes, offset: offset)
     }
 }
 
@@ -266,7 +266,7 @@ extension Fill {
 
 extension Color {
     func colorUsingAlphaOnly() -> Color {
-        return Color.black.with(a: Double(a()) / 255.0)
+        Color.black.with(a: Double(a()) / 255.0)
     }
 
     func toGrayscaleNoAlpha() -> Color {

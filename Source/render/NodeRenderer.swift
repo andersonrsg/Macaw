@@ -24,7 +24,7 @@ class NodeRenderer {
 
     weak var view: DrawingView?
     var sceneLayer: CALayer? {
-        return view?.mLayer
+        view?.mLayer
     }
     var layer: CachedLayer?
     var zPosition: Int = 0
@@ -309,7 +309,7 @@ class NodeRenderer {
     }
 
     public func doFindNodeAt(path: NodePath, ctx: CGContext) -> NodePath? {
-        return nil
+        nil
     }
 
     func calculateZPositionRecursively() {
